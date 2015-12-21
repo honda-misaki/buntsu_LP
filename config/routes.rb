@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'buntsu_LP' => 'top#index'
+  get 'lp' => 'top#index'
 end
