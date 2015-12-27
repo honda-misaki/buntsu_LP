@@ -6,11 +6,11 @@
     #wrapper.container
       // MAIN
       #main.row
-        .left.col-sm-6
-          .main__left.row
-            .main__logo.col-xs-3
-              %img{alt: "文通", src: "images/logo.png"}
-            .main__catchcopy.col-xs-9
+        .main__wrapper.clearfix
+          .main__left.clearfix
+            .main__logo
+              %img{alt: "文通", src: "images/logo.png", srcset: "images/logo@2x.png 2x"}
+            .main__catchcopy
               %h2 文通だからこそ、心が通う。
               %p.description01
                 スマートフォンを開けば、
@@ -32,15 +32,15 @@
                 そんな心の通う文通を
                 %br
                 このアプリではじめましょう。
-              .main__download
-                %a{href: "#"}
-                  %img{alt: "アプリをダウンロード", src: "images/download.png"}
-        .right.col-sm-6
-          %img{alt: "iphone", src: "images/iphone_header.png"}
+          .main__right
+            %img{alt: "iphone", src: "images/iphone_header.png", srcset: "images/iphone_header@2x.png 2x"}
+        .main__download
+          %a{href: "#"}
+            %img{alt: "アプリをダウンロード", src: "images/download.png", srcset: "images/download@2x.png 2x"}
 
       #contents.row
         .content.col-sm-4
-          %img{alt: "手紙をおくる", src: "images/image01.png"}
+          %img{alt: "手紙をおくる", src: "images/image01.png", srcset: "images/image01@2x.png 2x"}
           %h3 手紙をおくる
 
           %p
@@ -49,7 +49,7 @@
           わかりません。
 
         .content.col-sm-4
-          %img{alt: "手紙を受け取る", src: "images/image02.png"}
+          %img{alt: "手紙を受け取る", src: "images/image02.png", srcset: "images/image02@2x.png 2x"}
           %h3 手紙を受け取る
 
           %p
@@ -58,22 +58,22 @@
           数日かかります。
 
         .content.col-sm-4
-          %img{alt: "やりとりする", src: "images/image03.png"}
+          %img{alt: "やりとりする", src: "images/image03.png", srcset: "images/image03@2x.png 2x"}
           %h3 やりとりする
 
           %p ゆっくりと友情を
           育みましょう
 
       #footer.row
-        .footer__download.col-sm-5
+        .footer__item.footer__download.col-sm-5
           %p
             文通を使って、ワクワクしませんか？
           .btn
-            %img{alt: "アプリをダウンロード", src: "images/download02.png"}
+            %img{alt: "アプリをダウンロード", src: "images/download02.png", srcset: "images/download02@2x.png 2x"}
 
-        .footer__logo.col-sm-2
-          %img{alt: "文通", src: "images/logo-small.png"}
+        .footer__item.footer__logo.col-sm-2
+          %img{alt: "文通", src: "images/logo-small.png", srcset: "images/logo-small@2x.png 2x"}
 
-        .footer__copyright.col-sm-5
+        .footer__item.footer__copyright.col-sm-5
           %p
             Copyright © 2015 div Inc. All rights reserved.

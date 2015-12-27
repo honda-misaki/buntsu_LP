@@ -1,6 +1,6 @@
 $color-base: #cd5345;
 $color-accent: #af3c2f;
-$color-text: #fff;
+$color-text: #f8f8f8;
 
 @font-face {
   font-family: 'Hannari';
@@ -22,41 +22,77 @@ body{
   font-family: 'Hannari';
 }
 
-#main {
-  padding-bottom: 100px;
-}
-
 #wrapper {
   margin-top: 120px;
+
+  @media screen and (max-width: 750px) {
+    margin-top: 44px;
+  }
 }
 
-.main__logo {
-  text-align: center;
-}
-.main__catchcopy {
-  h2 {
-    margin: 0;
-    font-size: 27px;
+#main {
+  padding-bottom: 100px;
+  .main__left {
+    float: left;
   }
-  p {
-    line-height: 1.4;
-    font-size: 12px;
+  .main__right {
+    float: left;
   }
-  .description01 {
-    padding-top: 25px;
+  .main__logo {
+    float: left;
+    padding-right: 45px;
   }
-  .description02, .description03 {
-    padding-top: 25px;
+  .main__catchcopy {
+    float: left;
+    h2 {
+      margin: 0;
+      font-size: 30px;
+      letter-spacing: 8px;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+    .description01 {
+      padding-top: 25px;
+    }
+    .description02, .description03 {
+      padding-top: 25px;
+    }
+    .main__download {
+      margin-top: 25px;
+      cursor: pointer;
+    }
   }
   .main__download {
-    margin-top: 25px;
-    cursor: pointer;
+    margin: 30px 0 0 110px;
+  }
+
+  @media screen and (max-width: 750px) {
+    padding-bottom: 50px;
+    .main__left {
+      float: none;
+      padding: 0 20px;
+    }
+    .main__right {
+      float: none;
+      padding: 40px 0 20px;
+      text-align: center;
+    }
+    .main__catchcopy {
+      max-width: calc(100% - 110px - 40px);
+    }
+    .main__download {
+      margin-left: 0;
+      text-align: center;
+    }
   }
 }
 
 #contents {
   text-align: center;
-  padding: 80px 0 110px;
+  padding: 80px 0 80px;
   border-top: 2px solid $color-accent;
   border-bottom: 2px solid $color-accent;
 
@@ -69,6 +105,10 @@ body{
   p {
     font-size: 14px;
   }
+
+  .content {
+    padding-bottom: 30px;
+  }
 }
 
 #footer {
@@ -78,60 +118,20 @@ body{
   .footer__download > p {
     padding-bottom: 15px;
   }
+  .footer__logo > img {
+    padding: 11px 0;
+  }
   .footer__copyright > p {
     font-family: Courier,sans-serif;
-    line-height: 75px;
+    line-height: 90px;
+  }
+
+  @media screen and (max-width:750px) {
+    .footer__logo > img {
+      padding-top: 30px;
+    }
+    .footer__copyright > p {
+      line-height: 20px;
+    }
   }
 }
-
-// .main{
-//   height: 550px;
-//   padding: 100px 30px 10px;
-// }
-
-// .main_buntsu{
-//   width: 10%;
-//   float: left;
-// }
-
-// .main_left{
-//   width: 40%;
-//   float: left;
-// }
-
-// .main_right{
-//   width: 50%;
-//   float: left;
-// }
-
-// .content{
-
-// }
-
-// .contents_left{
-//   float: left;
-// }
-
-// .contents_right{
-  
-// }
-
-// .contents_center{
-//   float: left;
-// }
-
-// .footer{
-
-// }
-
-// .footer_left{
-//   float: left;
-// }
-
-// .footer_center{
-//   float: left;
-// }
-
-// .footer_right{
-
-// }
