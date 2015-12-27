@@ -1,3 +1,20 @@
 $color-base: #cd5345;
 $color-accent: #af3c2f;
 $color-text: #fff;
+
+@font-face {
+  font-family: 'Hannari';
+  src: url('Hannari.otf');
+}
+
+body{
+  width: 860px;
+  margin: 0 auto;
+  background-color: $color-base;
+  color: $color-text;
+  font-family: 'Hannari';
+}
+
+.main_left{
+  width: 50%;
+}
