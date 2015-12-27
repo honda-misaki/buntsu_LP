@@ -64,13 +64,16 @@
           %p ゆっくりと友情を
           育みましょう
 
-    / .footer
-    /   .footer_left
-    /     文通を使って、ワクワクしませんか？
-    /     %img{alt: "アプリをダウンロード", src: "images/download02.png"}
+      #footer.row
+        .footer__download.col-sm-5
+          %p
+            文通を使って、ワクワクしませんか？
+          .btn
+            %img{alt: "アプリをダウンロード", src: "images/download02.png"}
 
-    /   .footer_center
-    /     %img{alt: "文通", src: "images/logo-small.png"}
+        .footer__logo.col-sm-2
+          %img{alt: "文通", src: "images/logo-small.png"}
 
-    /   .fotter_right
-    /     Copyright © 2015 div Inc. All rights reserved.
+        .footer__copyright.col-sm-5
+          %p
+            Copyright © 2015 div Inc. All rights reserved.
