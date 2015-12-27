@@ -35,16 +35,20 @@ body{
   float: left;
 }
 
-.contents{
+.content{
 
+}
+
+.contents_left{
+  float: left;
 }
 
 .contents_right{
-
+  
 }
 
 .contents_center{
-
+  float: left;
 }
 
 .footer{
@@ -52,21 +56,13 @@ body{
 }
 
 .footer_left{
-
+  float: left;
 }
 
 .footer_center{
-
+  float: left;
 }
 
 .footer_right{
 
-}
-
-.button01{
-  background-color: color-accent;
-}
-
-.button02{
-  background-color: color-accent;
 }
