@@ -3,73 +3,74 @@
   %head
     %meta{charset: "utf-8"}
   %body
-    .main
-      .main_buntsu
-        %img{alt: "文通", src: "images/logo.png"}
+    #wrapper.container
+      // MAIN
+      #main.row
+        .left.col-sm-6
+          .main__left.row
+            .main__logo.col-xs-3
+              %img{alt: "文通", src: "images/logo.png"}
+            .main__catchcopy.col-xs-9
+              %h2 文通だからこそ、心が通う。
+              %p.description01
+                スマートフォンを開けば、
+                %br
+                瞬時に誰かと繋がれる時代。
+                %br
+                目まぐるしく交わされる
+                %br
+                コミュニケーションに疲れていませんか。
+              %p.description02
+                メールもなく手紙でやりとりしていた頃。
+                %br
+                届くまでに時間がかかるからこそ、
+                %br
+                一行一行に心をこめてペンを走らせ、
+                %br
+                ワクワクしながらポストを覗きました。
+              %p.description03
+                そんな心の通う文通を
+                %br
+                このアプリではじめましょう。
+              .main__download
+                %a{href: "#"}
+                  %img{alt: "アプリをダウンロード", src: "images/download.png"}
+        .right.col-sm-6
+          %img{alt: "iphone", src: "images/iphone_header.png"}
 
-      .main_left
-        %h2 文通だからこそ、心が通う。
-        %p
-        スマートフォンを開けば、
-        %br
-        瞬時に誰かと繋がれる時代。
-        %br
-        目まぐるしく交わされる
-        %br
-        コミュニケーションに疲れていませんか。
+    / .contents
+    /   .contents_left
+    /     %img{alt: "手紙をおくる", src: "images/image01.png"}
+    /     %h3 手紙をおくる
 
-        %p
-        メールもなく手紙でやりとりしていた頃。
-        %br
-        届くまでに時間がかかるからこそ、
-        %br
-        一行一行に心をこめてペンを走らせ、
-        %br
-        ワクワクしながらポストを覗きました。
+    /     %p
+    /     最初は誰に届くか
+    /     %br
+    /     はわかりません。
 
-        %p
-        そんな心の通う文通を
-        %br
-        このアプリではじめましょう。
+    /   .contents_center
+    /     %img{alt: "手紙を受け取る", src: "images/image02.png"}
+    /     %h3 手紙を受け取る
 
-        %img{alt: "アプリをダウンロード", src: "images/download.png"}
+    /     %p
+    /     相手に届くまで
+    /     %br
+    /     数日かかります。
 
-      .main_right
-        %img{alt: "iphone", src: "images/iphone_header.png"}
+    /   .contents_right
+    /     %img{alt: "やりとりする", src: "images/image03.png"}
+    /     %h3 やりとりする
 
-    .contents
-      .contents_left
-        %img{alt: "手紙をおくる", src: "images/image01.png"}
-        %h3 手紙をおくる
+    /     %p ゆっくりと友情を
+    /     育みましょう
 
-        %p
-        最初は誰に届くか
-        %br
-        はわかりません。
+    / .footer
+    /   .footer_left
+    /     文通を使って、ワクワクしませんか？
+    /     %img{alt: "アプリをダウンロード", src: "images/download02.png"}
 
-      .contents_center
-        %img{alt: "手紙を受け取る", src: "images/image02.png"}
-        %h3 手紙を受け取る
+    /   .footer_center
+    /     %img{alt: "文通", src: "images/logo-small.png"}
 
-        %p
-        相手に届くまで
-        %br
-        数日かかります。
-
-      .contents_right
-        %img{alt: "やりとりする", src: "images/image03.png"}
-        %h3 やりとりする
-
-        %p ゆっくりと友情を
-        育みましょう
-
-    .footer
-      .footer_left
-        文通を使って、ワクワクしませんか？
-        %img{alt: "アプリをダウンロード", src: "images/download02.png"}
-
-      .footer_center
-        %img{alt: "文通", src: "images/logo-small.png"}
-
-      .fotter_right
-        Copyright © 2015 div Inc. All rights reserved.
+    /   .fotter_right
+    /     Copyright © 2015 div Inc. All rights reserved.
