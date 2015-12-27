@@ -4,12 +4,10 @@
     %meta{charset: "utf-8"}
   %body
     .main
-      .main_left
-        %h1
-        文
-        %br
-        通
+      .main_buntsu
+        "logo.png"
 
+      .main_left
         %h2 文通だからこそ、心が通う。
         %p
         スマートフォンを開けば、
@@ -34,12 +32,15 @@
         %br
         このアプリではじめましょう。
 
-        %button アプリをダウンロード
+        %button01 "apple.png"
+        アプリをダウンロード
+
       .main_right
-        %a{:href => "#iphone_header.png"}
+        %img{alt: "iphone", src: "images/iphone_header.png"}
 
     .contents
       .contents_left
+        "image01.png"
         %h3 手紙をおくる
 
         %p
@@ -48,6 +49,7 @@
         はわかりません。
 
       .contents_center
+        "image02.png"
         %h3 手紙を受け取る
 
         %p
@@ -56,6 +58,7 @@
         数日かかります。
 
       .contents_right
+        "image03.png"
         %h3 やりとりする
 
         %p ゆっくりと友情を
@@ -65,12 +68,11 @@
       .footer_left
         文通を使って、ワクワクしませんか？
 
-        %button アプリをダウンロード
+        %button02 "apple.png"
+        アプリをダウンロード
 
       .footer_center
-        文
-        %br
-        通
+        "logo.png"
 
       .fotter_right
         Copyright © 2014 we-b Inc. All rights reserved.

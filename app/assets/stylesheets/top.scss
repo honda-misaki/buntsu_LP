@@ -15,6 +15,58 @@ body{
   font-family: 'Hannari';
 }
 
+.main{
+  height: 550px;
+  padding: 100px 30px 10px;
+}
+
+.main_buntsu{
+  width: 10%;
+  float: left;
+}
+
 .main_left{
+  width: 40%;
+  float: left;
+}
+
+.main_right{
   width: 50%;
+  float: left;
+}
+
+.contents{
+
+}
+
+.contents_right{
+
+}
+
+.contents_center{
+
+}
+
+.footer{
+
+}
+
+.footer_left{
+
+}
+
+.footer_center{
+
+}
+
+.footer_right{
+
+}
+
+.button01{
+  background-color: color-accent;
+}
+
+.button02{
+  background-color: color-accent;
 }
